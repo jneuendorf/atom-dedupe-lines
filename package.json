@@ -1,24 +1,29 @@
 {
-  "name": "duplicate-removal",
-  "main": "./lib/duplicate-removal",
-  "version": "0.1.3",
-  "description": "remove duplicate lines | 删除重复行",
-  "keywords": [
-    "line",
-    "remove",
-    "duplicate"
-  ],
-  "activationCommands": {
-    "atom-workspace": "duplicate-removal:toggle"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FloydaGithub/duplicate-removal.git"
-  },
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {},
-  "readmeFilename": "README.md"
+    "name": "dedupe-lines",
+    "main": "./lib/dedupe-lines.js",
+    "version": "0.1.3",
+    "description": "remove duplicate lines",
+    "keywords": [
+        "line",
+        "remove",
+        "removal",
+        "duplicate",
+        "dedupe"
+    ],
+    "activationCommands": {
+        "atom-workspace": "dedupe-lines:dedupe"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jneuendorf/atom-dedupe-lines.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "decaffeinate": "^6.0.9"
+    },
+    "readmeFilename": "README.md"
 }

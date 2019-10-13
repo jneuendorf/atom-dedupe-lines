@@ -1,18 +1,16 @@
-# duplicate-removal package
-> remove duplicate lines  
-> 删除重复行
+# `dedupe-lines` Atom package
 
-![duplicate-removal.gif](https://raw.githubusercontent.com/FloydaGithub/duplicate-removal/master/res/duplicate-removal.gif)
+Removes duplicate lines from the current text editor (meaning the currently edited file).
+The current line ending is kept if all lines have the same line ending (`LF` or `CRLF`).
+
 
 ## Install
+
 ```
-apm install duplicate-removal
+apm install dedupe-lines
 ```
 
+
 ## Usage
-- shortcut  
-```
-'ctrl-alt-r': 'duplicate-removal:toggle'
-```
-- cmd-shift-p  
-![duplicate-removal.png](https://raw.githubusercontent.com/FloydaGithub/duplicate-removal/master/res/duplicate-removal.png)
+
+- `cmd+shift+p` `>` `Dedupe` (should result in `Dedupe Lines: Dedupe`)
