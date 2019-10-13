@@ -1,7 +1,7 @@
 {
     "name": "dedupe-lines",
     "main": "./lib/dedupe-lines.js",
-    "version": "0.1.3",
+    "version": "1.0.0",
     "description": "remove duplicate lines",
     "keywords": [
         "line",
